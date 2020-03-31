@@ -8,10 +8,10 @@
 //abstraktní trida ustredny a v ni protected $napetí
 abstract class  ustredny_Chyška_Jan {
 
-    protected $napeti_Pokorny_Jakub;
+    protected $napeti_Chyška_Jan;
     //nastavení napeti
-    public function setNapeti_Chyška_Jan($napeti_Pokorny_Jakub){
-        $this->napeti_Pokorny_Jakub = $napeti_Pokorny_Jakub;
+    public function setNapeti_Chyška_Jan($napeti_Chyška_Jan){
+        $this->napeti_Chyška_Jan = $napeti_Chyška_Jan;
     }
     //precteni napeti
     public function getNapeti_Chyška_Jan() {
@@ -19,7 +19,7 @@ abstract class  ustredny_Chyška_Jan {
     }
 }
 // class ustredna se dedi do abs. class ustredny
-class  ustredna_Chyška_Jan extends ustredny_Pokorny_Jakub{
+class  ustredna_Chyška_Jan extends ustredny_Chyška_Jan{
    public $Napeti_Chyška_Jan= 15;
    //nastaveni konstanty type
    const TYPE ="12";
