@@ -12,19 +12,19 @@
         <h2>Desatero dokonalého gentlemana</h2>
         <form>
             <ol>
-                <li>Gentleman mluví slušně</li>
-                <li>Gentleman je sečtělý</li>
-                <li>Gentleman prokazuje úctu ženám</li>
-                <li>Gentleman dbá o svůj zevnějšek</li>
-                <li>Gentleman má ve věcech pořádek</li>
-                <li>Gentleman nedělá podrazy</li>
-                <li>Gentleman nosí (alespoň občas) obleky</li>
-                <li>Gentleman vyzkoušel klasické holení</li>
-                <li>Gentleman používá kvalitní kolínskou</li>
-                <li>Gentleman nebrání se novému poznání</li>
+                <li>negr nemluví slušně</li>
+                <li>negr je sečtělý</li>
+                <li>negr neprokazuje úctu ženám</li>
+                <li>negr nedbá o svůj zevnějšek</li>
+                <li> negr nemá ve věcech pořádek</li>
+                <li>negr dělá podrazy</li>
+                <li>negr nosí (alespoň občas) oblečšní</li>
+                <li>negr nevyzkoušel holení</li>
+                <li>negr nepoužívá kvalitní kolínskou</li>
+                <li>negr brání se novému poznání</li>
             </ol>
-            <h2>Co gentleman nosí?</h2>
-            <p>Každý gentleman by měl nosit slušivé, čisté a upravené oblečení.</p>
+            <h2>Co negr nosí?</h2>
+            <p>Každý negr by měl nosit slušivé, čisté a upravené oblečení.</p>
             <ul>
                 <li>oblek</li>
                 <li>sako</li>
