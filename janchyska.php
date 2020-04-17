@@ -200,7 +200,13 @@ foreach ($ovoce as $key => $value);
    
   
    }
-   phpinfo()
+   phpinfo();
+   
+   
+   include 'classtrings.php';
+   
+   
+   
  ?>
         
         
