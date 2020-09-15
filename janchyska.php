@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>TimeForGentleman</title>
+        <title>TimeForNegr</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/css.css">       
@@ -67,26 +67,26 @@
 <?PHP
 echo "Ahoj";
 print_r("ahoj");
-var_dump("ahoj");
+dump("ahoj");
 echo "\$fdsfdsf";
 echo "<a href=\"index.php\">Homepage<a/>";
 
 $a=10;
 $b=20;
 $c=30;
-var_dump ($a === $b);
+dump ($a === $b);
 echo "<br>";
-var_dump ($a === $c);
+dump ($a === $c);
 echo "<br>";
-var_dump ($a == $b);
+dump ($a == $b);
 echo "<br>";
-var_dump ($a == $c);
+dump ($a == $c);
 echo "<br>";
-var_dump ($a.$c);
+dump ($a.$c);
 echo "<br>";
-var_dump ($a+$c);
+dump ($a+$c);
 echo "<br>";
-var_dump ($a || $c);
+dump ($a || $c);
 echo "<br>";
 $cena1= 12;
 $cena2= 13;
@@ -145,13 +145,13 @@ $auto['osobní']['Mercedes'][] = 'SLS';
 $auto['osobní']['Mercedes'][] = 'CLS Coupe';
 $auto['nákladní']['Ford'][] = 'Transit';
 
-var_dump ($auto);
-var_dump ($ovoce);
+dump ($auto);
+dump ($ovoce);
 
 
 foreach ($ovoce as $key => $value);
-   var_dump ($key);
-    var_dump ($value);
+   dump ($key);
+    dump ($value);
 
     
  echo $value, "<br>";
@@ -183,8 +183,8 @@ foreach ($ovoce as $key => $value);
    
    
    function isValid (array $param1, string $param2) {
-     var_dump ($param1);
-       var_dump ($param2);
+     dump ($param1);
+       dump ($param2);
        
    foreach ($param1 as $key => $value) {
   
@@ -205,6 +205,10 @@ foreach ($ovoce as $key => $value);
    
    include 'classtrings.php';
    
+   include 'tracy-2.7.5';
+  use Tracy\Debugger;
+
+  Debugger::enable();
    
    
  ?>
