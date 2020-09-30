@@ -31,21 +31,8 @@ interface iustredna_Chyška_Jan extends ustredny_Chyška_Jan{
 }
  * 
  */
-$instance = new Chyška;
-/*
-$neco1 = 10;
-$neco2 = 3;
-$neco3 = 50;
-$neco4 = 11;
-$neco5 = 29 ;
-$neco6 = 26;
-$neco7 = 31; 
-$neco8 = 36;
-$neco9 = 189;
-$neco10 = 65;
- * 
- */
-class Chyška {
+$instance = new Chyska;
+class Chyska {
     public $neco1 = 10; 
     public $neco2 = 3;
     public $neco3 = 50;
@@ -85,25 +72,21 @@ class Chyška {
     
 } 
 var_dump ($instance);
-$neco1 = new Chyška();
-$neco1-> getneco1('10');
-echo $neco1-> getneco1();
+$cisla = new Chyska();
+$cisla-> getneco1('10');
+echo $cisla-> getneco1();
 echo '<br>';
-$neco2 = new Chyška();
-$neco2-> getneco2('3');
-echo $neco2-> getneco2();
+$cisla-> getneco2('3');
+echo $cisla-> getneco2();
 echo '<br>';
-$neco3 = new Chyška();
-$neco3-> getneco3('50');
-echo $neco3-> getneco3();
+$cisla-> getneco3('50');
+echo $cisla-> getneco3();
 echo '<br>';
-$neco4 = new Chyška();
-$neco4-> getneco4('11');
-echo $neco4-> getneco4();
+$cisla-> getneco4('11');
+echo $cisla-> getneco4();
 echo '<br>';
-$neco5 = new Chyška();
-$neco5-> getneco5('29');
-echo $neco5-> getneco5();
+$cisla-> getneco5('29');
+echo $cisla-> getneco5();
 
 
 
