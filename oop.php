@@ -31,7 +31,9 @@ interface iustredna_Chyška_Jan extends ustredny_Chyška_Jan{
 }
  * 
  */
+//definuji instanci
 $instance = new Chyska;
+//vytvarim class, a definuji atributy
 class Chyska {
     public $neco1 = 10; 
     public $neco2 = 3;
@@ -71,6 +73,7 @@ class Chyska {
     }
     
 } 
+//vyvolavani
 var_dump ($instance);
 $cisla = new Chyska();
 $cisla-> getneco1('10');
