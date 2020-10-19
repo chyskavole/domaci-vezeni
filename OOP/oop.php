@@ -18,7 +18,7 @@ class Chyska {
      * @param $neco1
      * @return int
      */
-    public function getchyskaneco1 () {
+    public function getnecochyska1 () {
        return $this-> necochyska1;
     }
     //vyvola necochyska1
@@ -27,7 +27,7 @@ class Chyska {
      * $param neco2
      * @return int
      */
-    public function getchyskaneco2 () {
+    public function getnecochyska2 () {
        return $this-> necochyska2;
     }
     //vyvola necochyska2
@@ -36,7 +36,7 @@ class Chyska {
      * @param neco3
      * @return int
      */
-    public function getchyskaneco3 () {
+    public function getnecochyska3 () {
        return $this-> necochyska3;
     }
     //vyvola necochyska3
@@ -45,7 +45,7 @@ class Chyska {
      * @param neco4
      * @return int
      */
-    public function getchykaneco4 () {
+    public function getnecochyska4 () {
        return $this-> necochyska4;
     }
     //vyvola necochyska4
@@ -54,7 +54,7 @@ class Chyska {
      * @param $neco5
      * @return int
      */
-    public function getchyskaneco5 () {
+    public function getnecochyska5 () {
        return $this-> necochyska5;
     }
     //vyvola necochyska5
@@ -63,7 +63,7 @@ class Chyska {
      * @param $neco9
      * @return int
      */
-    private function setchyskaneco9 () {
+    private function setnecochyska9 () {
        return $this-> necochyska9; 
     }
 //nastavi necochyska9    
@@ -72,10 +72,10 @@ class Chyska {
      * @param $neco10
      * @return int
      */
-    private function setchyskaneco10 () {
+    private function setnecochyska10 () {
         return $this-> necochyska10;
     }
-    //nastavi necochyska10
+    //nastavi necochyska
     public function _construct () {
        
     }
