@@ -21,6 +21,7 @@ class Chyska {
     public function getchyskaneco1 () {
        return $this-> necochyska1;
     }
+    //vyvola necochyska1
     /**
      * @author Jan Chyška
      * $param neco2
@@ -29,6 +30,7 @@ class Chyska {
     public function getchyskaneco2 () {
        return $this-> necochyska2;
     }
+    //vyvola necochyska2
     /**
      * @author Jan Chyška
      * @param neco3
@@ -37,6 +39,7 @@ class Chyska {
     public function getchyskaneco3 () {
        return $this-> necochyska3;
     }
+    //vyvola necochyska3
     /**
      * @author Jan Chyška
      * @param neco4
@@ -45,6 +48,7 @@ class Chyska {
     public function getchykaneco4 () {
        return $this-> necochyska4;
     }
+    //vyvola necochyska4
     /**
      * @author Jan Chyška
      * @param $neco5
@@ -53,6 +57,7 @@ class Chyska {
     public function getchyskaneco5 () {
        return $this-> necochyska5;
     }
+    //vyvola necochyska5
     /**
      * @author Jan Chyška
      * @param $neco9
@@ -60,7 +65,8 @@ class Chyska {
      */
     private function setchyskaneco9 () {
        return $this-> necochyska9; 
-    }    
+    }
+//nastavi necochyska9    
     /**
      * @author Jan Chyška
      * @param $neco10
@@ -69,9 +75,7 @@ class Chyska {
     private function setchyskaneco10 () {
         return $this-> necochyska10;
     }
-    /**
-     * 
-     */
+    //nastavi necochyska10
     public function _construct () {
        
     }
@@ -82,19 +86,24 @@ class Chyska {
 //vyvolavani
 var_dump ($instance);
 $cisla = new Chyska();
-$cisla-> getneco1('10');
-echo $cisla-> getneco1();
+$cisla-> getnecochyska1('10');
+echo $cisla-> getnecochyska1();
+//vyvola necochyska1
 echo '<br>';
-$cisla-> getneco2('3');
-echo $cisla-> getneco2();
+$cisla-> getnecochyska2('3');
+echo $cisla-> getnecochyska2();
+//vyvola necochyska2
 echo '<br>';
-$cisla-> getneco3('50');
-echo $cisla-> getneco3();
+$cisla-> getnecochyska3('50');
+echo $cisla-> getnecochyska3();
+//vyvloa necochyska3
 echo '<br>';
-$cisla-> getneco4('11');
-echo $cisla-> getneco4();
+$cisla-> getnecochyska4('11');
+echo $cisla-> getnecochyska4();
+//vyvola necochyska4
 echo '<br>';
-$cisla-> getneco5('29');
-echo $cisla-> getneco5();
+$cisla-> getnecochyska5('29');
+echo $cisla-> getnecochyska5();
+//vyvola necochyska5
 
 ?>
