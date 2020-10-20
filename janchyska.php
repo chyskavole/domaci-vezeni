@@ -9,7 +9,7 @@
     <body>
         <h1>negr</h1>
         <p>V moderním jazyce je negr jakýkoli člověk s velkou gunou v ruce. </p>
-        <h2>Desatero dokonalého gentlemana</h2>
+        <h2>Desatero dokonalého negra</h2>
         <form>
             <ol>
                 <li>negr nemluví slušně</li>
@@ -21,20 +21,20 @@
                 <li>negr nosí (alespoň občas) oblečšní</li>
                 <li>negr nevyzkoušel holení</li>
                 <li>negr nepoužívá kvalitní kolínskou</li>
-                <li>negr brání se novému poznání</li>
+                <li>negr se brání novému poznání</li>
             </ol>
             <h2>Co negr nosí?</h2>
-            <p>Každý negr by měl nosit slušivé, čisté a upravené oblečení.</p>
+            <p>Každý negr by měl nosit špinavé, prostorné a levné oblečení, aby se mu tam vešly zbraně a drogy.</p>
             <ul>
-                <li>oblek</li>
-                <li>sako</li>
-                <li>kravata</li>
-                <li>motýlek</li>
-                <li>šle</li>
-                <li>společenské boty</li>
+                <li>mikina</li>
+                <li>kalhoty u prdele</li>
+                <li>řetězy</li>
+                <li>glock</li>
+                <li>nůž</li>
+                <li>tenisky</li>
             </ul>
             <h3>Chcete vidět více? Klikněte zde.</h3>
-            <a href=https://www.google.com/search?q=gentleman+fashion&rlz=1C1PRFI_enCZ822CZ822&source=lnms&tbm=isch&sa=X&ved=0ahUKEwioobmfv_DfAhVHMewKHRbzBXIQ_AUIDigB&biw=1536&bih=792>Gentleman fashion</a>
+            <a href=https://www.google.com/search?q=gentleman+fashion&rlz=1C1PRFI_enCZ822CZ822&source=lnms&tbm=isch&sa=X&ved=0ahUKEwioobmfv_DfAhVHMewKHRbzBXIQ_AUIDigB&biw=1536&bih=792>Negrův outfit</a>
             <br>
             <br>
             <p>Váš účet</p>   
@@ -67,26 +67,26 @@
 <?PHP
 echo "Ahoj";
 print_r("ahoj");
-dump("ahoj");
+var_dump("ahoj");
 echo "\$fdsfdsf";
 echo "<a href=\"index.php\">Homepage<a/>";
 
 $a=10;
 $b=20;
 $c=30;
-dump ($a === $b);
+var_dump ($a === $b);
 echo "<br>";
-dump ($a === $c);
+var_dump ($a === $c);
 echo "<br>";
-dump ($a == $b);
+var_dump ($a == $b);
 echo "<br>";
-dump ($a == $c);
+var_dump ($a == $c);
 echo "<br>";
-dump ($a.$c);
+var_dump ($a.$c);
 echo "<br>";
-dump ($a+$c);
+var_dump ($a+$c);
 echo "<br>";
-dump ($a || $c);
+var_dump ($a || $c);
 echo "<br>";
 $cena1= 12;
 $cena2= 13;
@@ -145,13 +145,13 @@ $auto['osobní']['Mercedes'][] = 'SLS';
 $auto['osobní']['Mercedes'][] = 'CLS Coupe';
 $auto['nákladní']['Ford'][] = 'Transit';
 
-dump ($auto);
-dump ($ovoce);
+var_dump ($auto);
+var_dump ($ovoce);
 
 
 foreach ($ovoce as $key => $value);
-   dump ($key);
-    dump ($value);
+   var_dump ($key);
+    var_dump ($value);
 
     
  echo $value, "<br>";
@@ -183,8 +183,8 @@ foreach ($ovoce as $key => $value);
    
    
    function isValid (array $param1, string $param2) {
-     dump ($param1);
-       dump ($param2);
+     var_dump ($param1);
+       var_dump ($param2);
        
    foreach ($param1 as $key => $value) {
   
@@ -198,17 +198,34 @@ foreach ($ovoce as $key => $value);
            $param1= array('štěstíčku', 'Erbovou');
    echo isValid($param1, $param2);
    
+        $i = 16;
+        while($podminka = 0)
+        {
+            if($i % 3 == 0)
+            {
+                $vysledek = $i;
+                $podminka = 1;
+            }
+            else
+            {
+                $i=$i + 1;
+            }
+        }
+        echo("výsledek: $vysledek");
+
+    
+   
   
    }
-   phpinfo();
+   //phpinfo();
    
    
-   include 'classtrings.php';
+  // include 'classtrings.php';
    
-   include 'tracy-2.7.5';
-  use Tracy\Debugger;
+  // include 'tracy-2.7.5';
+ // use Tracy\Debugger;
 
-  Debugger::enable();
+ // Debugger::enable();
    
    
  ?>
