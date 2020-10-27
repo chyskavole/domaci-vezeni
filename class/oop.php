@@ -2,7 +2,6 @@
 //definuji instanci
 $instance = new Chyska;
 //vytvarim class, a definuji atributy
-namespace chyska;
 class Chyska {
     public $necochyska1 = 10; 
     public $necochyska2 = 3;
@@ -16,7 +15,7 @@ class Chyska {
     private $necochyska10 = 65;
     /**
      * @author Jan Chyška
-     * @param $neco1
+     * @param $necochyska1
      * @return int
      */
     public function getnecochyska1 ():int {
@@ -25,7 +24,7 @@ class Chyska {
     //vyvola necochyska1
     /**
      * @author Jan Chyška
-     * $param neco2
+     * $param necochyska2
      * @return int
      */
     public function getnecochyska2 ():int {
@@ -34,7 +33,7 @@ class Chyska {
     //vyvola necochyska2
     /**
      * @author Jan Chyška
-     * @param neco3
+     * @param necochyska3
      * @return int
      */
     public function getnecochyska3 ():int {
@@ -52,7 +51,7 @@ class Chyska {
     //vyvola necochyska4
     /**
      * @author Jan Chyška
-     * @param $neco5
+     * @param $necochyska5
      * @return int
      */
     public function getnecochyska5 ():int {
@@ -61,7 +60,7 @@ class Chyska {
     //vyvola necochyska5
     /**
      * @author Jan Chyška
-     * @param $neco9
+     * @param $necochyska9
      * @return int
      */
     private function setnecochyska9 ():int {
@@ -70,7 +69,7 @@ class Chyska {
 //nastavi necochyska9    
     /**
      * @author Jan Chyška
-     * @param $neco10
+     * @param $necochyska10
      * @return int
      */
     private function setnecochyska10 ():int {
