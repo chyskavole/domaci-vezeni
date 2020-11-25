@@ -83,27 +83,6 @@ class Chyska {
     
     
 } 
-//vyvolavani
-var_dump ($instance);
-$cisla = new Chyska();
-$cisla-> getnecochyska1('10');
-echo $cisla-> getnecochyska1();
-//vyvola necochyska1
-echo '<br>';
-$cisla-> getnecochyska2('3');
-echo $cisla-> getnecochyska2();
-//vyvola necochyska2
-echo '<br>';
-$cisla-> getnecochyska3('50');
-echo $cisla-> getnecochyska3();
-//vyvloa necochyska3
-echo '<br>';
-$cisla-> getnecochyska4('11');
-echo $cisla-> getnecochyska4();
-//vyvola necochyska4
-echo '<br>';
-$cisla-> getnecochyska5('29');
-echo $cisla-> getnecochyska5();
-//vyvola necochyska5
+
 
 ?>
